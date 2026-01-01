@@ -1,0 +1,7 @@
+[project]
+name = "fridge"
+version = "0.1.0"
+description = "Noise detector using audio analysis"
+requires-python = ">=3.12"
+dependencies = [
+]
