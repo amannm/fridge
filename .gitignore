@@ -5,3 +5,4 @@ reference/*/*
 uv.lock
 *.pt
 *.csv
+*.egg-info

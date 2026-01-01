@@ -1,0 +1,62 @@
+audio:
+  sample_rate: 16000
+  mono: true
+  dtype: float32
+  value_range_min: -1.0
+  value_range_max: 1.0
+fbank:
+  num_mel_bins: 128
+  frame_length_ms: 25
+  frame_shift_ms: 10
+  mean: 15.41663
+  std: 6.55582
+window:
+  train_window_sec: 2.0
+  train_hop_sec: 0.5
+  stream_window_sec: 2.0
+  stream_hop_sec: 0.25
+model:
+  beats_checkpoint: models/BEATs_iter3_plus_AS2M.pt
+  pooling: mean
+  head_hidden: 256
+  dropout: 0.2
+train:
+  batch_size: 64
+  epochs_max: 20
+  early_stop_patience: 5
+  lr_head: 0.001
+  weight_decay: 0.01
+  device: mps
+  seed: 1337
+  num_workers: 0
+finetune:
+  enabled: false
+  unfreeze_last_blocks: 2
+  lr_backbone: 0.00001
+  lr_head: 0.0003
+  warmup_ratio: 0.05
+  epochs: 15
+augment:
+  gain_db_min: -6.0
+  gain_db_max: 6.0
+  time_shift: true
+  eq_tilt: false
+  noise_dir:
+  noise_snr_min: 10.0
+  noise_snr_max: 30.0
+postprocess:
+  ema_alpha: 0.8
+  on_threshold: 0.7
+  on_frames: 3
+  off_threshold: 0.3
+  off_frames: 6
+stream:
+  device:
+data:
+  recordings_manifest: manifests/recordings.csv
+  windows_manifest: manifests/windows.csv
+  decoded_dir: artifacts/decoded
+  artifacts_root: artifacts
+inference:
+  checkpoint_path:
+  threshold_path:

@@ -1,0 +1,5 @@
+recording_id,path,label,group,duration_sec
+fridge-on-day,samples/fridge-on-day.m4a,1,day,180.48725
+fridge-off-day,samples/fridge-off-day.m4a,0,day,180.7659375
+fridge-on-night,samples/fridge-on-night.m4a,1,night,180.673
+fridge-off-night,samples/fridge-off-night.m4a,0,night,180.1621875
