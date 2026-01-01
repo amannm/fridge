@@ -3,4 +3,4 @@
 reference/*/*
 .venv
 uv.lock
-models
+.pt
