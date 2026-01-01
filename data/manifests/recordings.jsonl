@@ -1,0 +1,8 @@
+{"ac_on": 0, "duration_s": 180.7659375, "environment": "day", "fridge_on": 0, "id": "ac-off-fridge-off-day", "path": "data/processed/wav/ac-off-fridge-off-day.wav", "sample_rate": 16000}
+{"ac_on": 0, "duration_s": 180.1621875, "environment": "night", "fridge_on": 0, "id": "ac-off-fridge-off-night", "path": "data/processed/wav/ac-off-fridge-off-night.wav", "sample_rate": 16000}
+{"ac_on": 0, "duration_s": 180.48725, "environment": "day", "fridge_on": 1, "id": "ac-off-fridge-on-day", "path": "data/processed/wav/ac-off-fridge-on-day.wav", "sample_rate": 16000}
+{"ac_on": 0, "duration_s": 180.673, "environment": "night", "fridge_on": 1, "id": "ac-off-fridge-on-night", "path": "data/processed/wav/ac-off-fridge-on-night.wav", "sample_rate": 16000}
+{"ac_on": 1, "duration_s": 180.5105, "environment": "day", "fridge_on": 0, "id": "ac-on-fridge-off-day", "path": "data/processed/wav/ac-on-fridge-off-day.wav", "sample_rate": 16000}
+{"ac_on": 1, "duration_s": 180.580125, "environment": "night", "fridge_on": 0, "id": "ac-on-fridge-off-night", "path": "data/processed/wav/ac-on-fridge-off-night.wav", "sample_rate": 16000}
+{"ac_on": 1, "duration_s": 180.69625, "environment": "day", "fridge_on": 1, "id": "ac-on-fridge-on-day", "path": "data/processed/wav/ac-on-fridge-on-day.wav", "sample_rate": 16000}
+{"ac_on": 1, "duration_s": 180.673, "environment": "night", "fridge_on": 1, "id": "ac-on-fridge-on-night", "path": "data/processed/wav/ac-on-fridge-on-night.wav", "sample_rate": 16000}
