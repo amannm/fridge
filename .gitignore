@@ -4,3 +4,4 @@ reference/*/*
 .venv
 uv.lock
 *.pt
+*.csv
