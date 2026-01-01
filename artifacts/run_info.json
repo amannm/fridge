@@ -1,0 +1,6 @@
+{
+  "seed": 1337,
+  "best_smoothed_f1": 0.6666666666666666,
+  "config_path": "/Users/amannmalik/PycharmProjects/fridge/configs/default.yaml",
+  "checkpoint": "/Users/amannmalik/PycharmProjects/fridge/checkpoints/best.pt"
+}
